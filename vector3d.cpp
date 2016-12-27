@@ -109,5 +109,3 @@ bool operator!=(const vector3d &a, const vector3d &b) {
 std::ostream &operator<<(std::ostream &stream, const vector3d &a) {
     return stream << "{" << a.x << ", " << a.y << ", " << a.z << "}";
 }
-
-// TODO: дописать
